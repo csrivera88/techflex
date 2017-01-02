@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset = utf-8>
+        <title>Movie Bin</title>
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+    </header>
+    <body id = "index" background = "img/background.jpg">
+        <ul class = "login">
+        <li><form method = "post" action = "index.php">
+            Username: <br/>
+            <input type = "text" name = "username"><br/>
+            Password: <br/>
+            <input type = "password" name = "password"><br/>
+            <input type = "submit" value = "Log In">
+        </form></li>
+        </ul>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "review.html">Add a Review</a></li>
+            </ul>
+        </nav>
+        <img id = "main" src = "img/Logo.png">
+        <form method="post" action="index.html">
+            <input id="search" type="text" placeholder="Search for movies, genres, actors, or directors">
+            <input id="submit" type="submit" value="Search">
+        </form>
+    </body>
+</html>

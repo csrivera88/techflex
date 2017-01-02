@@ -1,0 +1,57 @@
+#login {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.login {
+    text-align: left;
+    color: darkgray;
+    position: absolute;
+}
+
+#review {
+    margin-top: 50px;
+    color: darkgray;
+}
+
+nav {
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 1.1em;
+}
+
+li {
+    display: inline;
+}
+
+#main {
+    display: block;
+    margin: auto;
+    max-height: 450px;
+}
+
+#search {
+    position:absolute;
+    right: 30%;
+    margin-top: -75px;
+    width: 40%;
+}
+
+#submit {
+    position:absolute;
+    right: 45%;
+    margin-top: -30px;
+    width: 10%;
+}
